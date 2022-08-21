@@ -1,0 +1,25 @@
+{
+  "name": "musty-graphql-server",
+  "version": "1.0.0",
+  "description": "GraphQL server for musty app",
+  "main": "src/index.js",
+  "repository": "https://github.com/OpeAbidemi/musty-graphql-server.git",
+  "author": "Abidemi Ope <opeabidemi@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.10.1",
+    "class-validator": "^0.13.2",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.6.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
