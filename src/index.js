@@ -319,6 +319,7 @@ const resolvers = {
         csrfPrevention: true,
         cache: 'bounded',
         cors: true,
+        introspection: true,
         /**
          * What's up with this embed: true option?
          * These are our recommended settings for using AS;
