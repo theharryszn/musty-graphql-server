@@ -8,7 +8,7 @@ const Post = require("./models/Post");
 const Topic = require("./models/Topic");
 const User = require("./models/User");
 
-const PORT = process.env.PORT | 8080
+const PORT = process.env.PORT || 8080
 
 // A schema is a collection of type definitions (hence "typeDefs")
 // that together define the "shape" of queries that are executed against
